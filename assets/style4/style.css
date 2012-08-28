@@ -1,0 +1,171 @@
+#sidebar1 .topic1,
+#main .topic1{
+	font-size:1.4em;
+}
+body{
+	background-color:#dfcc99;
+}
+#header_wrapper{
+	background:#5e700d;
+}
+#header .nav li a{
+	background: url("link_head_bg.png") no-repeat top left;
+}
+#header .nav li a:hover{
+	background: url("link-hover_head_bg.png") no-repeat top left;	
+}
+#header .nav li a span{
+	background: url("link_body_bg.png") repeat-x;	
+}
+#header .nav li a:hover span{
+	background: url("link-hover_body_bg.png") repeat-x;		
+}
+#footer_wrapper{
+	background-color:#5e700d;
+}
+.sticky_nav-left_topic2{
+	position:absolute;
+	width:223px;
+	height:40px;
+	top:0px;
+	left:-33px;
+	z-index:10;
+	background: url("bg_navleft_topic2.png") no-repeat;
+}
+
+#nav-left .nav-left li {
+	background: url('icon_nav-left.png') no-repeat center left;
+}
+.widgets{
+	background: url('widgets.png') no-repeat ;
+}
+.banners{
+	background: url('banners.png') no-repeat ;
+}
+.buttons{
+	background: url('buttons.png') no-repeat;
+}
+
+/*------------------- Font Color --------------------*/
+#header,
+#sidebar1 li a,
+#main #product .topic1 a,
+#header .logged_in li a,
+#main .column li a{
+	color:#333;
+}
+.fl,
+#main .padding a,
+#blog .author,
+#article .author,
+#discussion .breadcrumb a,
+#main .column .bullets small,
+#comments li .meta span{
+	color:#888;
+}
+#collection .grid .price,
+#frontpage .column .topic2,
+#main .topic1,
+#sidebar1 .account .topic1,
+#header .logged_in li a,
+#collection .grid a:hover .view,
+#frontpage #collection .topic1{
+	color:#5e700d;
+}
+#header a,
+#header .nav li a,
+#sidebar1 .topic2,
+#sidebar1 .account .button,
+#sidebar1 .account .signup,
+#discussion .listing th,
+#cart .items th,
+#collection .subcategory a,
+#sidebar1 .socials_wrapper .topic3{
+	color:#fff;	
+}
+.footer,
+#header .logged_in,
+#header .logged_in li a:hover,
+#header a:hover,
+#header .logo_wrapper .site_name,
+#sidebar1 .stats dd,
+.footer a,
+#sidebar1 li a:hover,
+#sidebar1 .nav-left .active a,
+#blog .excerpt a,
+#header .cart_status a:hover,
+#main .column li a:hover,
+#blog .details .topic2 a:hover,
+#sidebar1 .logged_in h2{
+	color:#d2b066;
+}
+#blog .excerpt a:hover,
+#blog .details .topic2 a,
+#discussion .breadcrumb a:hover,
+#main .padding a:hover,
+#discussion .message a,
+#collection .subcategory a:hover,
+.footer a:hover,
+.footer .copyright a,
+.footer .copyright a:hover{
+	color:#aa814e;
+}
+#collection .grid a .view{
+	color:#fff;
+}
+/*------------------- Background Color --------------------*/
+#collection .subcategory a:hover{
+  background-color:#fff;
+}
+#collection .subcategory a{
+	-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -border-radius: 5px;
+  border-radius: 5px;
+}
+#collection .buy a .view,
+#discussion .page .padding,
+#comments li .meta{
+	-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -border-radius: 5px;
+  border-radius: 5px;
+}
+#discussion .page .padding,
+#comments li .meta{
+	background-color:#f4efe1;
+}
+#discussion .listing th,
+#cart .items th,
+#collection .subcategory a,
+#collection .grid a .view{
+  background-color:#5e700d;
+}
+#discussion .listing .hover{
+  background-color:#f4efe1;	
+}
+#sidebar1 .account .button{
+  background-color:#5e700d;		
+}
+#sidebar1 .account .signup{
+  background-color:#d2b066;	
+}
+#sidebar1 .account .signup:hover,
+#collection .grid a:hover .view{
+  background-color:#e4d4b0;	
+}
+/*------------------- Border Color --------------------*/
+#sidebar1 .list li,
+#discussion .listing td,
+#blog .padding li,
+#main .column ul li,
+#cart_form td{
+	border-bottom:1px dotted #d2b066;
+}
+#message .padding{
+	border:2px dotted #d2b066;
+	-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -border-radius: 5px;
+  border-radius: 5px;	
+}
